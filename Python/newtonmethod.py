@@ -15,7 +15,7 @@ while True:
     x1 = x0-f(x0)/Df(x0)
     Dx = math.fabs(x1-x0)
     print(i+1, "%.4f" % x0, "%.4f" % f(x0), "%.4f" % Df(x0), "%.4f" % x1, "%.4f" % Dx)
-    i+=1
+    i += 1
     x0 = x1
     if Dx < eps:
         break

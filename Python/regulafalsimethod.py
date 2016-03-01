@@ -13,8 +13,10 @@ while True:
     c = (a*f(b)-b*f(a))/(f(b)-f(a))
     s = "+" if f(c) > 0 else "-"
     print(i+1, "%.4f" % a, "%.4f" % b, "%.4f" % f(a), "%.4f" % f(b), "%.4f" % c, "%.4f" % f(c), s)
-    i+=1
-    if f(a)*f(c) > 0: a = c
-    else: b = c
+    i += 1
+    if f(a)*f(c) > 0:
+        a = c
+    else:
+        b = c
     if math.fabs(f(c)) < eps:
         break
