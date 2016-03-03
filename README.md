@@ -1,5 +1,5 @@
 # Numerical Analysis Examples
-![cover](http://imgur.com/TXXVcwd)
+![cover](http://i.imgur.com/TXXVcwd.jpg)
 ============
 
 ### C# Examples
