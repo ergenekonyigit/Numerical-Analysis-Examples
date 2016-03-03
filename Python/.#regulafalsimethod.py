@@ -1,1 +1,0 @@
-ergenekonyigit@Ergenekons-MacBook-Air.local.67512
