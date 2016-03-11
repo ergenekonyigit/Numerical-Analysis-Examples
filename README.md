@@ -9,7 +9,9 @@
     * [Maximum Field Form](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/MaximumFieldForm)
   * [Secant Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/SecantMethod)
   * [Regula-Falsi Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/RegulaFalsiMethod)
-  * [Fixed-Point Method]()
+  * Fixed-Point Method
+* Systems of Linear Equations
+  * [Gauss Elimination Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/GaussEliminationMethod)
 
 ### Python Examples
 * Iteration Methods
@@ -17,7 +19,9 @@
   * [Newton Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/newtonmethod.py)
   * [Secant Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/secantmethod.py)
   * [Regula-Falsi Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/regulafalsimethod.py)
-  * [Fixed-Point Method]()
+  * Fixed-Point Method
+* Systems of Linear Equations
+  * Gauss Elimination Method
 
 ### Contributing
 
