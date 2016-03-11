@@ -3,24 +3,24 @@
 ============
 
 ### C# Examples
-* Iteration Methods
+* **Iteration Methods**
   * [Bisection Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BisectionMethod)
   * [Newton Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/NewtonMethod)
     * [Maximum Field Form](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/MaximumFieldForm)
   * [Secant Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/SecantMethod)
   * [Regula-Falsi Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/RegulaFalsiMethod)
   * Fixed-Point Method
-* Systems of Linear Equations
+* **Systems of Linear Equations**
   * [Gauss Elimination Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/GaussEliminationMethod)
 
 ### Python Examples
-* Iteration Methods
+* **Iteration Methods**
   * [Bisection Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/bisectionmethod.py)
   * [Newton Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/newtonmethod.py)
   * [Secant Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/secantmethod.py)
   * [Regula-Falsi Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/regulafalsimethod.py)
   * Fixed-Point Method
-* Systems of Linear Equations
+* **Systems of Linear Equations**
   * Gauss Elimination Method
 
 ### Contributing
