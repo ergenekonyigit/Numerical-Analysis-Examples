@@ -6,10 +6,10 @@
 #### 1.1 Iteration Methods
 * Bisection Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BisectionMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/bisectionmethod.py)
 * Newton Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/NewtonMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/newtonmethod.py)
- * Maximum Field Form [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/MaximumFieldForm)
+ * Maximum Field Form [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/MaximumFieldForm) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/maximumfieldform.py)
 * Secant Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/SecantMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/secantmethod.py)
 * Regula-Falsi Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/RegulaFalsiMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/regulafalsimethod.py)
-* Fixed-Point Method 
+* Fixed-Point Method
 
 -
 ### 2 Polynomials and Roots
@@ -37,7 +37,7 @@
 #### 4.3 Matrix Inversion
 * Inverse Matrix with Cramer's Rule
 * Inverse Matrix with Gaussian Elimination Method
-* Inverse Matrix with LU Decomposition
+* Inverse Matrix with LU Decomposition
 
 -
 ### 5 Eigenvalues and Eigenvectors
