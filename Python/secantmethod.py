@@ -5,6 +5,7 @@ x1 = input("x1: ")
 eps = 1e-6
 n = 0
 
+
 def f(x):
     return x*math.exp(-x)+math.pow(x, 3.0)+1
 
@@ -19,5 +20,3 @@ while True:
     n += 1
     if Dx < eps:
         break
-
-

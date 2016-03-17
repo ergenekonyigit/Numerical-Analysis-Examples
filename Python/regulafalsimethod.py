@@ -5,6 +5,7 @@ eps = 1e-6
 a = input("a: ")
 b = input("b: ")
 
+
 def f(x):
     return 10*math.exp(-x/2.0)*(math.cos(6.0*x)+math.sin(8.0*x))
 
