@@ -28,7 +28,7 @@
 -
 ### 4 Matrix Operations
 #### 4.1 Basic Matrix Operations
-* Addition, Subtraction, Multiplication, Transpose, Determinant
+* Addition, Subtraction, Multiplication, Transpose, Determinant [[ C#  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BasicMatrixOperations)
 
 #### 4.2 Determinant
 * Determinant with Gaussian-Jordan Method
