@@ -23,7 +23,7 @@
 * Cramer Method
 * Gaussian Elimination Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/GaussEliminationMethod)
 * Gaussian-Jordan Elimination Method
-* LU Decomposition Method
+* LU Decomposition Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/LUDecompositionMethod)
 
 -
 ### 4 Matrix Operations
@@ -35,7 +35,7 @@
 * Determinant with LU Decomposition Method
 
 #### 4.3 Matrix Inversion
-* Inverse Matrix with Cramer's Rule
+* Inverse Matrix with Cramer's Rule [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/InverseMatrixwithCramersRule)
 * Inverse Matrix with Gaussian Elimination Method
 * Inverse Matrix with LU Decomposition
 
