@@ -10,7 +10,6 @@ func f(x float64) float64 {
 }
 
 func main() {
-
 	n := 0
 	eps := 1e-3
 	var a float64
