@@ -5,7 +5,7 @@ Note: You can implement any language for contribute.
 -
 ### 1 Equation Solutions
 #### 1.1 Iteration Methods
-* Bisection Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BisectionMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/bisectionmethod.py) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/bisectionmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/BisectionMethod.hs) [[ Racket ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Racket%20(Scheme)%20/bisection.rkt)
+* Bisection Method [[ C++ ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%2B%2B/bisectionmethod.cpp) [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BisectionMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/bisectionmethod.py) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/bisectionmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/BisectionMethod.hs) [[ Racket ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Racket%20(Scheme)%20/bisection.rkt)
 * Newton Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/NewtonMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/newtonmethod.py) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/newtonmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/NewtonsMethod.hs) [[ Racket ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Racket%20(Scheme)%20/newtons-method.rkt)
  * Maximum Field Form [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/MaximumFieldForm) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/maximumfieldform.py)
 * Secant Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/SecantMethod) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/secantmethod.py) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/secantmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/SecantMethod.hs)
@@ -74,11 +74,11 @@ Note: You can implement any language for contribute.
 -
 ### 9 Interpolation
 #### 9.1 Lagrange Polynomial Interpolation
-* Lagrange Interpolation Algorithm
+* Lagrange Interpolation Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/LagrangeInterpolation.hs)
 * Neville Interpolation Algorithm
 
 #### 9.2 Cubic Spline Interpolation
-* Cubic Spline Algorithm
+* Cubic Spline Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/SplineInterpolation.hs)
 
 #### 9.3 Trigonometric Interpolation
 * Example
