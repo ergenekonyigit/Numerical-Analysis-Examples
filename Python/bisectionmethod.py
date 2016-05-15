@@ -6,11 +6,8 @@ a = input("a: ")
 b = input("b: ")
 
 
-# def f(x):
-#     return x*math.exp(-x)+math.pow(x, 3.0)+1
-
 def f(x):
-    return (math)
+    return x*math.exp(-x)+math.pow(x, 3.0)+1
 
 print("n", "  a", "  b", "    m", "    f(a)*f(m)", "|Dx/2|")
 
