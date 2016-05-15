@@ -6,7 +6,7 @@
 
 
 /* 
-Usage: ./a.out a b n-steps
+Usage: ./bisectionmethod a b n-steps
 */
 
 double a, b, stepcount;
