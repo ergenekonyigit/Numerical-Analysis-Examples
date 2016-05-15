@@ -6,12 +6,13 @@ import (
 )
 
 func f(x float64) float64 {
-	return x*math.Exp(-x) + math.Pow(x, 3.0) + 1
+	// return x*math.Exp(-x) + math.Pow(x, 3.0) + 1
+	return (2/math.Exp(-math.Pi) + 1) * math.Exp(-x) * math.Sin(x)
 }
 
 func main() {
 	n := 0
-	eps := 1e-3
+	eps := 1e-2
 	var a float64
 	var b float64
 	fmt.Println("a: ")

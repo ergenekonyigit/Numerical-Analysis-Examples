@@ -36,7 +36,7 @@
 
 #### 4.3 Matrix Inversion
 * Inverse Matrix with Cramer's Rule [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/InverseMatrixwithCramersRule)
-* Inverse Matrix with Gaussian Elimination Method
+* Inverse Matrix with Gaussian Elimination Method [ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/InverseMatrixwithGaussianEliminationMethod)
 * Inverse Matrix with LU Decomposition
 
 -
