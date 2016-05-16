@@ -22,40 +22,55 @@
 # SOFTWARE.
 #
 
-def leastsquares(x, y):
+def lagrangeinterpolation(x, xp, yp):
     '''
-    Example implementation of the Least Squares method for calculating a best-fit line through a set of points.
+    Example implementation of the Lagrange Polynomial Interpolation method.
 
     Args:
-        x: array of floats representing x values for each point
-        y: array of floats representing y values for each point
+        x: float representing x value for which to calculate the interpolated y value 
+        xp: array of floats representing x values for each interpolation point
+        yp: array of floats representing y values for each interpolation point
 
     Returns:
-        (float, float): representing the y-intercept and slope of the best-fit line
+        float containing the interpolated y value
 
     Raises:
-        ValueError: if the two arrays are not the same length
+        ValueError: if the two input arrays are not the same length
     '''
 
-    if len(x) != len(y):
+    if len(xp) != len(yp):
        raise ValueError('Point arrays must be equal length')
-       
-    numberOfPoints = len(x)
-    sumX = sum(x)
-    sumY = sum(y)
-    sumXYProduct = sum(x[i] * y[i] for i in range(numberOfPoints))
-    sumXSquared = sum(map(lambda a: a ** 2, x))
-    xBar = sumX / numberOfPoints
-    yBar = sumY / numberOfPoints
 
-    a1 = (numberOfPoints * sumXYProduct - sumX * sumY) / (numberOfPoints * sumXSquared - sumX ** 2)
-    a0 = yBar - a1 * xBar
+    numberOfPoints = len(xp)
 
-    return a0, a1
+    y = 0
+    for i in range(numberOfPoints):
+        product = yp[i]
+        for j in range(numberOfPoints):
+            if i != j:
+                product *= (x - xp[j])/(xp[i] - xp[j])
 
-# example data
-x = (1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0)
-y = (0.5, 2.5, 2.0, 4.0, 3.5, 6.0, 5.5)
+        y += product
 
-print "least squares fit ==> y = %.10f + %.10fx" % leastsquares(x, y)
+    return y
+
+# example #1: x**2
+
+x = 1.5 
+xp = (1.0, 2.0, 3.0)
+yp = (1.0, 4.0, 9.0)
+
+print "\nExample #1: "
+print "Given points: ", zip(xp, yp)
+print "interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x)
+
+# example #2: x**3
+
+x = 2.5
+xp = (1.0, 2.0, 3.0)
+yp = (1.0, 8.0, 27.0)
+
+print "\nExample #2: "
+print "Given points: ", zip(xp, yp)
+print "interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x)
 
