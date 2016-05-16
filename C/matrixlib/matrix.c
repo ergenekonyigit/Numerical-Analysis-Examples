@@ -36,8 +36,8 @@ void print(matrix mat) {
 matrix add(matrix mat1, matrix mat2) {
     assert(mat1->rows == mat2->rows);
     assert(mat1->cols == mat2->cols);
-    double * arr = malloc(mat1->rows * mat1->cols * sizeof(double));
-    for (int i = 0; i < mat1->rows * mat1->cols; i++)
+    double * arr = malloc(mat1->size * sizeof(double));
+    for (int i = 0; i < mat1->size; i++)
         arr[i] = mat1->arr[i] + mat2->arr[i];
 
     return init(arr, mat1->rows, mat1->cols);
@@ -46,8 +46,8 @@ matrix add(matrix mat1, matrix mat2) {
 matrix sub(matrix mat1, matrix mat2) {
     assert(mat1->rows == mat2->rows);
     assert(mat1->cols == mat2->cols);
-    double * arr = malloc(mat1->rows * mat1->cols * sizeof(double));
-    for (int i = 0; i < mat1->rows * mat1->cols; i++)
+    double * arr = malloc(mat1->size * sizeof(double));
+    for (int i = 0; i < mat1->size; i++)
         arr[i] = mat1->arr[i] - mat2->arr[i];
 
     return init(arr, mat1->rows, mat1->cols);
@@ -57,7 +57,7 @@ matrix transpose(matrix mat) {
     assert(mat->rows > 0);
     assert(mat->cols > 0);
 
-    double * arr = malloc(mat->rows * mat->cols * sizeof(double));
+    double * arr = malloc(mat->size * sizeof(double));
     for (int i = 0; i < mat->rows; i++) {
         for (int j = 0; j < mat->cols; j++) {
             arr[j * mat->rows + i] = mat->arr[i * mat->cols + j];
