@@ -21,7 +21,7 @@ namespace NewtonMethod
 				i++;
 				x0 = x1;
 			} while(Dx > eps);
-      Console.ReadLine();
+      	Console.ReadLine();
 		}
 
 		private static double f(double x)
