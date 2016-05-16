@@ -6,8 +6,8 @@ namespace NewtonMethod
 	{
 		public static void Main (string[] args)
 		{
-			double x0 = Console.Read ();
-			Console.WriteLine();
+			Console.Write("x0:");
+			double x0 = Convert.ToDouble (Console.ReadLine ());
 			double x1 = 0;
 			double eps = 1e-6;
 			double Dx;
@@ -21,6 +21,7 @@ namespace NewtonMethod
 				i++;
 				x0 = x1;
 			} while(Dx > eps);
+      Console.ReadLine();
 		}
 
 		private static double f(double x)
