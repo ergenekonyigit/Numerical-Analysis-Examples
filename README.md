@@ -48,8 +48,8 @@ Note: You can implement any language for contribute.
 
 -
 ### 6 Linear Curve Fitting
-#### 6.1 Least Squares Method [[ Python ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/leastsquares.py)
-* Example
+#### 6.1 Least Squares Method
+* Example [[ Python ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/leastsquares.py)
 
 #### 6.2 Polynomial Fitting
 * Example
