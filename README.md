@@ -74,7 +74,7 @@ Note: You can implement in any language for contribute.
 -
 ### 9 Interpolation
 #### 9.1 Lagrange Polynomial Interpolation
-* Lagrange Interpolation Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/LagrangeInterpolation.hs)
+* Lagrange Interpolation Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/LagrangeInterpolation.hs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/lagrangeinterpolation.py)
 * Neville Interpolation Algorithm
 
 #### 9.2 Cubic Spline Interpolation
