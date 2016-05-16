@@ -29,7 +29,7 @@ Note: You can implement in any language for contribute.
 -
 ### 4 Matrix Operations
 #### 4.1 Basic Matrix Operations
-* Addition, Subtraction, Multiplication, Transpose, Determinant [[ C#  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BasicMatrixOperations)
+* Addition, Subtraction, Multiplication, Transpose, Determinant [[ C#  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BasicMatrixOperations) [[ Go  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/matrixoperations.go)
 
 #### 4.2 Determinant
 * Determinant with Gaussian-Jordan Method
