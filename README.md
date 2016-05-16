@@ -1,7 +1,7 @@
 # Numerical Analysis Examples
 ![cover](http://i.imgur.com/TXXVcwd.jpg)
 
-Note: You can implement any language for contribute.
+Note: You can implement in any language for contribute.
 -
 ### 1 Equation Solutions
 #### 1.1 Iteration Methods
