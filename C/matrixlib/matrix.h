@@ -5,15 +5,27 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <assert.h>
 
-typedef struct matrix_t {
+/*
+ * The matrix_t struct. This includes a double array pointer which serves as the
+ * underlying machine representation of the matrix. The two integers indicate
+ * the shape of the matrix.
+ */
+struct matrix_t {
     double * arr;
     int rows;
     int cols;
-} matrix;
+    int size;
+};
 
-matrix * init(double * arr, int rows, int cols);
-int del(matrix * mat);
+/*
+ * So you don't have to shove a whole matrix through a function call...
+ */
+typedef struct matrix_t * matrix;
+
+matrix init(double * arr, int rows, int cols);
+int del(matrix mat);
 
 void print(matrix mat);
 
