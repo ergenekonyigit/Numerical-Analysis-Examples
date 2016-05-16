@@ -49,6 +49,8 @@ func print(a [][]float64, x []float64, b []float64) {
 func main() {
 	fmt.Println("a ...interface{}", math.Pi)
 
-  print(a [][]float64, x []float64, b []float64)
+	/*
+	   print(a [][]float64, x []float64, b []float64) {
 
+	 }*/
 }
