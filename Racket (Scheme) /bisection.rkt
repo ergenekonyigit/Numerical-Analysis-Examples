@@ -8,8 +8,8 @@
       "No root"
       (if (> (abs (/ (- b a) 2)) EPS)
           (if (< (* (f a) (f m)) 0)
-              (bisection f a m (+ 1 n))
-              (bisection f m b (+ 1 n)))
+              (bisection f a m (add1 n))
+              (bisection f m b (add1 n)))
           m
           )))
 
