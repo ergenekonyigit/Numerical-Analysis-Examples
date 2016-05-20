@@ -62,7 +62,7 @@ typedef struct matrix_t * matrix;
  */
 matrix init(double * arr, int rows, int cols);
 
-/*
+/* WARNING: UNIMPLEMENTED
  * Procedure:
  *   del
  * Purpose:
@@ -206,15 +206,34 @@ double det(matrix mat);
  *   func, a unary function pointer
  *   mat, a matrix
  * Produces:
- *   vmat, a matrix
+ *   new_mat, a matrix
  * Preconditions:
  *   mat is an initialized matrix
  *   func is actually pointing to a valid function
  * Postconditions:
- *   vmat->arr[i] == f(mat->arr[i]) for all i
- *   vmat->rows == mat->rows
- *   vmat->cols == mat->cols
+ *   new_mat->arr[i] == f(mat->arr[i]) for all i
+ *   new_mat->rows == mat->rows
+ *   new_mat->cols == mat->cols
  */
 matrix vectorized(double (*func)(double), matrix mat);
+
+/*
+ * Procedure:
+ *   scale
+ * Purpose:
+ *   applies a scalar to each entry of a matrix
+ * Parameters:
+ *   mat, a matrix
+ *   scalar, a double
+ * Produces:
+ *   new_mat, a matrix
+ * Preconditions:
+ *   mat is an initialized matrix
+ * Postconditions:
+ *   new_mat->arr[i] == scalar * mat->arr[i] for all i
+ *   new_mat->rows == mat->rows
+ *   new_mat->cols == mat->cols
+ */
+matrix scale(matrix mat, double scalar);
 
 #endif
