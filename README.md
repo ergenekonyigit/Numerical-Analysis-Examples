@@ -1,43 +1,41 @@
 # Numerical Analysis Examples
 ![cover](http://i.imgur.com/TXXVcwd.jpg)
 
-Note: You can implement in any language for contribute.
 -
 ### 1 Equation Solutions
 #### 1.1 Iteration Methods
-* Bisection Method [[ C ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C/bisection/bisection.c) [[ C++ ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%2B%2B/bisectionmethod.cpp) [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/BisectionMethod/bisectionmethod.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/bisectionmethod.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/bisectionmethod.rb) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/bisectionmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/BisectionMethod.hs) [[ Racket ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Racket%20(Scheme)%20/bisection.rkt)
-* Newton Method [[ C ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C/newtons-method/newtons-method.c) [[ C++ ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%2B%2B/newtons-method/newtons-method.cpp) [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/NewtonMethod/newtonmethod.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/newtonmethod.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/newtonmethod.rb) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/newtonmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/NewtonsMethod.hs) [[ Racket ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Racket%20(Scheme)%20/newtons-method.rkt)
- * Maximum Field Form [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/MaximumFieldForm/maximumfieldform.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/maximumfieldform.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/maximumfieldform.rb)
-* Secant Method [[ C++ ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%2B%2B/secant/secant.cpp) [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/SecantMethod/secantmethod.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/secantmethod.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/secantmethod.rb) [[ Go ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/secantmethod.go) [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/SecantMethod.hs)
-* Regula-Falsi Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/RegulaFalsiMethod/regulafalsimethod.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/regulafalsimethod.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/regulafalsimethod.rb)
-* Fixed-Point Method
+* [Bisection Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/01%20Equation%20Solutions/1.1%20Iteration%20Methods/Bisection%20Method)
+* [Newton Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/01%20Equation%20Solutions/1.1%20Iteration%20Methods/Newtons%20Method)
+* [Secant Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/01%20Equation%20Solutions/1.1%20Iteration%20Methods/Secant%20Method)
+* [Regula-Falsi Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/01%20Equation%20Solutions/1.1%20Iteration%20Methods/Regula-Falsi%20Method)
+* [Fixed-Point Method](hhttps://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/01%20Equation%20Solutions/1.1%20Iteration%20Methods/Fixed-Point%20Method)
 
 -
 ### 2 Polynomials and Roots
 #### 2.1 Polynomial Roots
-* Synthetic Division and Newton Method
-* Muller Method
+* [Synthetic Division and Newton Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/02%20Polynomial%20and%20Roots/2.1%20Polynomial%20Roots/Muller%20Method)
+* [Muller Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/02%20Polynomial%20and%20Roots/2.1%20Polynomial%20Roots/Synthetic%20Division%20and%20Newton%20Method)
 
 -
 ### 3 Linear Equations
 #### 3.1 Numerical Solutions of Equations
-* Cramer Method
-* Gaussian Elimination Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/GaussianEliminationMethod/gaussianeliminationmethod.cs)
-* Gaussian-Jordan Method
-* LU Decomposition Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/LUDecompositionMethod)
+* [Cramer Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/03%20Linear%20Equations/3.1%20Numerical%20Solutions%20of%20Equations/Cramer%20Method)
+* [Gauss-Jordan Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/03%20Linear%20Equations/3.1%20Numerical%20Solutions%20of%20Equations/Gauss-Jordan%20Elimination%20Method)
+* [Gaussian Elimination Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/03%20Linear%20Equations/3.1%20Numerical%20Solutions%20of%20Equations/Gaussian%20Elimination%20Method)
+* [LU Decomposition Method](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/v2/03%20Linear%20Equations/3.1%20Numerical%20Solutions%20of%20Equations/LU%20Decomposition%20Method)
 
 -
 ### 4 Matrix Operations
 #### 4.1 Basic Matrix Operations
-* Addition, Subtraction, Multiplication, Transpose, Determinant [[ C#  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BasicMatrixOperations) [[ Go  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/matrixoperations.go)
+* Addition, Subtraction, Multiplication, Transpose, Determinant
 
 #### 4.2 Determinant
 * Determinant with Gaussian-Jordan Method
 * Determinant with LU Decomposition Method
 
 #### 4.3 Matrix Inversion
-* Inverse Matrix with Cramer's Rule [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/InverseMatrixwithCramersRule/inversematrixcramersrule.cs)
-* Inverse Matrix with Gaussian Elimination Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/InverseMatrixwithGaussianEliminationMethod)
+* Inverse Matrix with Cramer's Rule
+* Inverse Matrix with Gaussian Elimination Method
 * Inverse Matrix with LU Decomposition
 
 -
@@ -49,7 +47,7 @@ Note: You can implement in any language for contribute.
 -
 ### 6 Linear Curve Fitting
 #### 6.1 Least Squares Method
-* Example [[ Python ]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/leastsquares.py)
+* Example
 
 #### 6.2 Polynomial Fitting
 * Example
@@ -74,11 +72,11 @@ Note: You can implement in any language for contribute.
 -
 ### 9 Interpolation
 #### 9.1 Lagrange Polynomial Interpolation
-* Lagrange Interpolation Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/LagrangeInterpolation.hs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/lagrangeinterpolation.py)
+* Lagrange Interpolation Algorithm
 * Neville Interpolation Algorithm
 
 #### 9.2 Cubic Spline Interpolation
-* Cubic Spline Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/SplineInterpolation.hs)
+* Cubic Spline Algorithm
 
 #### 9.3 Trigonometric Interpolation
 * Example
