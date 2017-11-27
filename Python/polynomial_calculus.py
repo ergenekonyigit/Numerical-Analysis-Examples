@@ -35,3 +35,25 @@ def eval_polynomial(x, X):
         print('b({0}) = {1} +({2})*{3} = {4}'.format(counter, A[N], B[counter + 1], X, B[counter]))
         counter = counter - 1  
 
+'''
+Evaluating p(x) derivate
+'''
+def eval_polynomial_derivative(x, X):
+    equation = p(x)
+    A = equation.c #list of coefficients
+    D = copy.copy(A)
+    index = len(A) - 1 # -1 to ensure loop stops when K=1
+    counter = len(A) - 1
+
+    D[counter - 1] = counter * A[0]  # D(N-1) := N * A(N) 
+    print("d({0}) = {1} * {2} = {3}".format(counter - 1, counter, A[0], D[counter - 1])); 
+    counter = counter - 1  
+
+    for N in range(1,index): # For K = N-1  DOWNTO 1
+        D[counter - 1] = (counter) * A[N] + D[counter] * X # DO D(K-1):= K * A(K) + D(K) * X
+        print("d({0}) = {1} * {2} + {3} * {4} = {5}".format(counter - 1, counter, A[N], D[counter], X, D[counter - 1])); 
+        
+        counter = counter - 1
+
+
+
