@@ -56,4 +56,30 @@ def eval_polynomial_derivative(x, X):
         counter = counter - 1
 
 
+'''
+Algorithm to evaluate I(x)
+
+'''
+def eval_polynomial_integral(x,X):
+    equation = p(x)
+    A = equation.c
+    I = copy.copy(x) 
+    index = len(A) 
+    counter = len(A) - 1
+    
+    I.insert((counter + 1),(A[0] /(counter + 1))) # I(N+1):= A(N)/(N+1)
+    print("I({0}) = {1}/{2} = {3}".format(counter + 1, A[0], counter + 1, I[counter + 1]))
+    
+
+    for N in range(1, index): #For K=N DOWNTO 1
+        I[counter] =( A[N] / counter ) + I[counter + 1] * X # DO I(K):= A(K-1)/K + I(K+1)*X
+        print("I({0}) = {1}/{2} + {3} * {4} = {5}".format(counter, A[N], counter, I[counter + 1], X, I[counter]))
+        counter = counter - 1
+    
+    #   I(0):= C + I(1)*X
+    I[0] = 0 + I[1] * X
+    print("I(0) = 0 + {0} * {1} = {2}".format(I[1], X, I[0]))
+    print('\n')
+    
+    return I[0];
 
