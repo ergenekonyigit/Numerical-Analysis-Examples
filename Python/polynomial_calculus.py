@@ -83,3 +83,13 @@ def eval_polynomial_integral(x,X):
     
     return I[0];
 
+
+'''
+Definite Integral of p(x) taken over two points
+upper       {Upper limit}
+lower       {Lower limit}
+'''
+def eval_polynomial_integral_limits(x,upper, lower):    
+    print('I({0}) - I({1}) = {2}'.format(upper, lower, eval_polynomial_integral(x, upper) - eval_polynomial_integral(x,lower)))
+    
+
