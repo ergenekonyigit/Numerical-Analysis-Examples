@@ -15,3 +15,23 @@ import copy
 def p(x):
     p = numpy.poly1d(x)
     return p
+
+'''
+Evaluating p(x)
+'''
+def eval_polynomial(x, X): 
+    equation = p(x)
+    A = equation.c      #list of coefficients
+    B = copy.copy(A)    
+    index = len(A)
+    counter = len(A) - 1
+    
+    B[counter] = A[0] # B(N):=A(N)
+    print('b({0}) = {1}'.format(counter, A[0])) 
+    counter = counter - 1
+
+    for N in range(1,index):
+        B[counter] = A[N] + B[counter + 1] * X 
+        print('b({0}) = {1} +({2})*{3} = {4}'.format(counter, A[N], B[counter + 1], X, B[counter]))
+        counter = counter - 1  
+
