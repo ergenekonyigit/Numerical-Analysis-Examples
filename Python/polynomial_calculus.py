@@ -93,3 +93,10 @@ def eval_polynomial_integral_limits(x,upper, lower):
     print('I({0}) - I({1}) = {2}'.format(upper, lower, eval_polynomial_integral(x, upper) - eval_polynomial_integral(x,lower)))
     
 
+ 
+
+    
+print(eval_polynomial([-0.02, 0.2, -0.4,1.28], 4))
+print(eval_polynomial_derivative([-0.02, 0.2, -0.4,1.28], 4))
+print(eval_polynomial_integral([-0.02, 0.2, -0.4,1.28], 4))
+(eval_polynomial_integral_limits([-0.02, 0.2, -0.4,1.28], 4, 1))
