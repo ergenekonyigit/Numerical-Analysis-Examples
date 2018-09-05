@@ -57,12 +57,13 @@ def lagrangeinterpolation(x, xp, yp):
 # example #1: x**2
 
 x = 1.5 
-xp = (1.0, 2.0, 3.0)
-yp = (1.0, 4.0, 9.0)
+xp = [1.0, 2.0, 3.0]
+yp = [1.0, 4.0, 9.0]
 
-print "\nExample #1: "
-print "Given points: ", zip(xp, yp)
-print "interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x)
+print("\nExample #1: ")
+zipped_x_y = list(zip(xp, yp))
+print("Given points: ", zipped_x_y)
+print("interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x))
 
 # example #2: x**3
 
@@ -70,7 +71,8 @@ x = 2.5
 xp = (1.0, 2.0, 3.0)
 yp = (1.0, 8.0, 27.0)
 
-print "\nExample #2: "
-print "Given points: ", zip(xp, yp)
-print "interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x)
+print("\nExample #2: ")
+zipped_x_y = list(zip(xp, yp))
+print("Given points: ", zipped_x_y)
+print("interpolated y value = %.3f at x = %.3f" % (lagrangeinterpolation(x, xp, yp), x))
 
