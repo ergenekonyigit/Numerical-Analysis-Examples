@@ -25,6 +25,7 @@
 def leastsquares(x, y):
     '''
     Example implementation of the Least Squares method for calculating a best-fit line through a set of points.
+    Linear least squares
 
     Args:
         x: array of floats representing x values for each point
@@ -57,5 +58,5 @@ def leastsquares(x, y):
 x = (1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0)
 y = (0.5, 2.5, 2.0, 4.0, 3.5, 6.0, 5.5)
 
-print "least squares fit ==> y = %.10f + %.10fx" % leastsquares(x, y)
+print ("least squares fit ==> y = %.10f + %.10fx" % leastsquares(x, y))
 
