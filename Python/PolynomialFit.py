@@ -34,6 +34,7 @@ print(f)
 
 # plot the function 
 new_x = np.linspace(0, 1, 200)
+print(f(new_x).3)
 plt.plot(x, y, 'o', new_x, f(new_x), '-')
 pylab.title('Polynomial Fit with Matplotlib')
 plt.show()
