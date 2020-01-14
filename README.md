@@ -111,6 +111,11 @@ Note: You can implement in any language for contribute.
 
 -
 
+### 12 Polynomial Calculus
+* Example [[Python]] (https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/polynomial_calculus.py)
+
+-
+
 ### Contributing
 
 1. Fork it ( https://github.com/ergenekonyigit/Numerical-Analysis-Examples/fork )
