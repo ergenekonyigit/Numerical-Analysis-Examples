@@ -12,13 +12,13 @@ Note: You can implement in any language for contribute.
 * Regula-Falsi Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/C%23/RegulaFalsiMethod/regulafalsimethod.cs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/regulafalsimethod.py) [[ Ruby ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Ruby/regulafalsimethod.rb)
 * Fixed-Point Method
 
--
+
 ### 2 Polynomials and Roots
 #### 2.1 Polynomial Roots
 * Synthetic Division and Newton Method
 * Muller Method
 
--
+
 ### 3 Linear Equations
 #### 3.1 Numerical Solutions of Equations
 * Cramer Method
@@ -26,7 +26,7 @@ Note: You can implement in any language for contribute.
 * Gaussian-Jordan Method
 * LU Decomposition Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/LUDecompositionMethod)
 
--
+
 ### 4 Matrix Operations
 #### 4.1 Basic Matrix Operations
 * Addition, Subtraction, Multiplication, Transpose, Determinant [[ C#  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/BasicMatrixOperations) [[ Go  ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Go/matrixoperations.go)
@@ -40,13 +40,13 @@ Note: You can implement in any language for contribute.
 * Inverse Matrix with Gaussian Elimination Method [[ C# ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/tree/master/C%23/InverseMatrixwithGaussianEliminationMethod)
 * Inverse Matrix with LU Decomposition
 
--
+
 ### 5 Eigenvalues and Eigenvectors
 #### 5.1 Finding Eigenvalues Methods
 * Jacobian Transformation
 * The QR and QL Algorithms
 
--
+
 ### 6 Linear Curve Fitting
 #### 6.1 Least Squares Method
 * Example [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/leastsquares.py)
@@ -54,12 +54,12 @@ Note: You can implement in any language for contribute.
 #### 6.2 Polynomial Fitting
 * Example
 
--
+
 ### 7 Nonlinear Curve Fitting
 #### 7.1 Algorithm
 * Example
 
--
+
 ### 8 Fourier Series and Fourier Transform
 #### 8.1 Fourier Series
 * Fourier Series Algorithm
@@ -71,7 +71,7 @@ Note: You can implement in any language for contribute.
 * Discrete Fourier Transform
 * Fast Fourier Transform
 
--
+
 ### 9 Interpolation
 #### 9.1 Lagrange Polynomial Interpolation
 * Lagrange Interpolation Algorithm [[ Haskell ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Haskell/LagrangeInterpolation.hs) [[ Python ]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/lagrangeinterpolation.py)
@@ -86,7 +86,7 @@ Note: You can implement in any language for contribute.
 #### 9.4 Extrapolation
 * Example
 
--
+
 ### 10 Derivative and Integral
 #### 10.1 Derivative
 * Derivative of Sequences
@@ -96,7 +96,7 @@ Note: You can implement in any language for contribute.
 * Integration of Series
 * Integration of Functions
 
--
+
 ### 11 Data Processing
 #### 11.1 Data Arrays and Digital Filters
 * Average Filter
@@ -109,12 +109,10 @@ Note: You can implement in any language for contribute.
 * Spectral Decomposition with Derivative
 * Fourier Transform and Spectral Decomposition
 
--
 
 ### 12 Polynomial Calculus
 * Example [[Python]](https://github.com/ergenekonyigit/Numerical-Analysis-Examples/blob/master/Python/polynomial_calculus.py)
 
--
 
 ### Contributing
 
@@ -124,7 +122,6 @@ Note: You can implement in any language for contribute.
 4. Push to the branch (git push origin my-new-feature)
 5. Create a new Pull Request
 
--
 
 ### Contributors
 
