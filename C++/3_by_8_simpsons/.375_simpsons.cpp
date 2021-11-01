@@ -25,7 +25,7 @@ int main()
   int i, num_intervals;
 
   cout << "******************************************************" << endl;
-  cout << "1/3 SIMPSON'S RULE" << endl;
+  cout << "3/8 SIMPSON'S RULE" << endl;
   cout << "******************************************************" << endl;
 
   // Input
@@ -36,19 +36,27 @@ int main()
   cout << "Enter number of sub intervals: ";
   cin >> num_intervals;
 
-  // only works when number of intervals is even
+  // only works when number of intervals is a multiple of 3
 
-  if (num_intervals % 2 == 0)
+  if (num_intervals % 3 == 1)
   {
-    num_intervals = num_intervals;
+
+    cout << "number of intervals  should be a multiple of 3 ." << endl;
+    num_intervals = num_intervals + 2;
+    cout << "Number of intervals is: " << num_intervals << endl;
+  }
+  else if (num_intervals % 3 == 2)
+  {
+
+    cout << "number of intervals  should be a multiple of 3 ." << endl;
+    num_intervals = num_intervals + 1;
+    cout << "Number of intervals is: " << num_intervals << endl;
   }
   else
   {
-
-    cout << "number of intervals  should be an even number." << endl;
-    num_intervals = num_intervals + 1;
-    cout << "Number of intervals is:" << num_intervals << endl;
+    num_intervals = num_intervals;
   }
+  // Calculations
 
   // Finding step size
   step_size = (upper_limit - lower_limit) / num_intervals;
@@ -56,7 +64,7 @@ int main()
   // Printing the table
 
   cout << "******************************************************" << endl;
-  cout << setw(2) << "S.NO" << setw(20) << "lower_limit+i*h" << setw(30) << "f(lower_limit+i*h)" << endl;
+  cout << setw(2) << "SNO" << setw(20) << "lower_limit+i*h" << setw(30) << "f(lower_limit+i*h)" << endl;
   cout << "******************************************************" << endl;
 
   for (i = 0; i <= num_intervals; i++)
@@ -68,23 +76,24 @@ int main()
   }
 
   // Finding Integration Value
+
   integration = f(lower_limit) + f(upper_limit);
 
-  for (i = 1; i < num_intervals; i++)
+  for (i = 1; i <= num_intervals - 1; i++)
   {
     k = lower_limit + i * step_size;
 
-    if (i % 2 == 0)
+    if (i % 3 == 0)
     {
       integration = integration + 2 * (f(k));
     }
     else
     {
-      integration = integration + 4 * (f(k));
+      integration = integration + 3 * (f(k));
     }
   }
 
-  integration = integration * step_size / 3;
+  integration = integration * step_size * 3.0 / 8.0;
 
   cout << endl
        << "Required value of integration is: " << integration;
